@@ -1,0 +1,31 @@
+
+This project aims to predict house prices in Bengaluru based on key real estate features such as area type, location, number of bedrooms, total square feet, and amenities (e.g., bathrooms and balconies). The dataset used is `Bengaluru_House_Data.csv`, and the implementation details are documented in the Jupyter Notebook `project_1.ipynb`.  
+
+---
+
+## Dataset  
+
+### File: `Bengaluru_House_Data.csv`  
+This dataset contains residential property information in Bengaluru. Key columns include:  
+
+- **`area_type`**: Type of property area (e.g., Super built-up Area, Plot Area).  
+- **`availability`**: Status of availability (e.g., Ready To Move, month/year).  
+- **`location`**: Location of the property.  
+- **`size`**: Number of bedrooms (e.g., 2 BHK, 4 Bedroom).  
+- **`society`**: Name of the housing society (can have NaN values).  
+- **`total_sqft`**: Total square feet area of the property.  
+- **`bath`**: Number of bathrooms.  
+- **`balcony`**: Number of balconies.  
+- **`price`**: Property price in Lakhs of Indian Rupees (target variable).  
+
+---
+
+### Steps  
+
+    Clone the repository or download the project folder:  
+   ```bash  
+   git clone 
+   https://github.com/SreekanthKumarReddySR/BangloreHousePricePrediction.git
+   
+   cd your-repository # Bengaluru House Price Prediction  
+
